@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "15 5 * * *"
 
+permissions:
+  contents: write
+
 jobs:
   daily-update:
     runs-on: "ubuntu-latest"
